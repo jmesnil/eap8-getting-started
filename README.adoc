@@ -7,10 +7,10 @@ The `src/main` folder contains a simple 'Hello world' style Jakarta EE applicati
 == Deploying the Quickstart
 Make sure you have done all the https://github.com/jboss-eap-up-and-running/docs/blob/main/RUNNING_ON_OPENSHIFT.adoc#prerequisites[prerequisites] and https://github.com/jboss-eap-up-and-running/docs/blob/main/RUNNING_ON_OPENSHIFT.adoc#selecting_creating_a_project[selected/created a project].
 
-Then install the Helm chart contained under link:./charts/helm.yaml[charts/helm.yaml] to install the application into OpenShift.
+Then install the Helm chart fpr EAP 8 to install the application into OpenShift.
 [source,shell]
 ----
-helm install eap8-getting-started -f charts/helm.yaml jboss-eap/eap8
+helm install jboss-eap/eap8
 ----
 See the https://github.com/jboss-eap-up-and-running/docs/blob/main/RUNNING_ON_OPENSHIFT.adoc#deploying_with_helm[Deploying with Helm] section for information about when the application will be ready.
 
