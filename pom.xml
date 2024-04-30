@@ -116,7 +116,7 @@
                                 </feature-pack>
                             </feature-packs>
                             <layers>
-                                <layer>cloud-server</layer>
+                                <layer>cloud-default-config</layer>
                             </layers>
                             <filename>ROOT.war</filename>
                         </configuration>
