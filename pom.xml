@@ -104,6 +104,7 @@
                                     <manifest>
                                         <groupId>org.jboss.eap.channels</groupId>
                                         <artifactId>eap-8.0</artifactId>
+                                        <version>1.6.1.GA-redhat-00006</version>
                                     </manifest>
                                 </channel>
                             </channels>
